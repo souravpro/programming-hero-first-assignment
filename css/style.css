@@ -1,0 +1,88 @@
+/* Google Fonts Links */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Common CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+}
+
+
+/* nav style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 160px;
+    gap: 48px;
+}
+.logo {
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.sign-in-btn {
+    padding: 15px 30px;
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    cursor: pointer;
+}
+
+/* hero section style */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+    background: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px;
+    gap: 64px;
+}
+
+.hero-content{
+    display: flex;
+    max-width: 622px;
+    gap: 24px;
+    flex-direction: column;
+}
+.hero-content h4 {
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 500;
+    color: #0E0E0E80;
+}
+.hero-content h1 {
+    font-size: 56px;
+    line-height: 67.2px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.btn {
+    padding: 17px 34px;
+    background: #006A50;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 600;
+    border: none;
+    width: 270px;
+    height: 56px;
+}
+
+.hero-img {
+    position: relative;
+    max-width: 470px;
+}
+.hero-img img {
+    width: 100%;
+    height: auto;
+}

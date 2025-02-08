@@ -9,6 +9,10 @@
     font-family: "Fira Sans", serif;
 }
 
+body {
+    min-height: 500vh;
+    background: #f5f5f5;
+}
 
 /* nav style */
 nav {
@@ -129,5 +133,103 @@ nav {
     background: #5490F533;
     border-radius: 16px;
     padding: 32px;
-    border-radius: 1px solid #5490F5;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+    height: 320px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.vision-box img {
+    width: 64px;
+    height: 64px;
+}
+.vision-box h3 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #0E0E0ECC;
+}
+.vision-box p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #0E0E0EB2;
+}
+.common-btn {
+    width: 122px;
+    height: 40px;
+    background: #5490F5;
+    color: #fff;
+    padding: 11px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 24px;
+    transition: all 0.3s ease;
+}
+.common-btn:hover {
+    background: #1059d8;
+}
+
+.vision-bg-2 {
+    background: #C6E4D6;
+}
+.vision-bg-3 {
+    background: #F7EBCF;
+}
+.vision-btn-2 {
+    background: #09A15C;
+}
+.vision-btn-2:hover {
+    background: #014d2b;
+}
+.vision-btn-3 {
+    background: #FFC239;
+}
+.vision-btn-3:hover {
+    background: #a37a1a;
+}
+
+
+/* Testimonials Section */
+.testimonials {
+    padding-top: 100px;
+}
+.testimonials-box {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin: 0 auto;
+    gap: 24px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 16px;
+    padding: 48px 24px;
+    background: url(../assets/quote-bg.png) no-repeat;
+    background-position: 2% 10%;
+
+}
+.testimonials-box p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #0E0E0ECC;
+}
+.testimonials-box h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #0E0E0ECC;
+}
+.testimonials-box h3 span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E99;
+    display: block;
 }

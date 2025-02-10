@@ -371,4 +371,54 @@ nav {
 
 .donate-section .read-more-btn {
     margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/* .newsletter */
+.newsletter {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px;
+    gap: 30px;
+}
+.newsletter h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #0E0E0E;
+}
+.newsletter p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+    max-width: 622px;
+    text-align: center;
+}
+
+.newsletter-input-box input {
+    width: 600px;
+    padding: 18px 40px;
+    gap: 24px;
+    border-radius: 8px;
+}
+.newsletter-input-box input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #555353;
+    border: none;
+}
+.newsletter .read-more-btn {
+    width: 150px;
+    padding: 17px 34px;
+    gap: 48px;
+    border-radius: 8px;
+    margin-left: -10px;
 }

@@ -308,3 +308,67 @@ nav {
     flex-direction: row-reverse;
     margin: 30px 0;
 }
+
+
+/* donate section */
+.donate-section {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donate-section .section-heading {
+    text-align: center;
+}
+
+.donate-content {
+    display: flex;
+    gap: 48px;
+    margin: 50px 0;
+}
+.donate-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 128px;
+    width: 240px;
+    border-radius: 16px;
+    border: 1px solid #424141;
+    padding: 40px;
+    gap: 24px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.donate-box:hover {
+    border: 1px solid #006A50;
+    background: #C6E4D6;
+}
+.donate-box h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #0E0E0E;
+
+}
+
+.donate-section textarea {
+    width: 1032px;
+    padding: 10px 40px;
+    resize: none;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.donate-section textarea::placeholder {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #464545;
+}
+
+.donate-section .read-more-btn {
+    margin-top: 25px;
+}
